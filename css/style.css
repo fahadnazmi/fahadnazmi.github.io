@@ -67,6 +67,11 @@ body {
 [tabindex="-1"]:focus {
   outline: 0 !important; }
 
+.header-image
+{
+  position: relative;
+  top: 125px;
+}
 hr {
   -webkit-box-sizing: content-box;
   box-sizing: content-box;

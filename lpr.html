@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Contacts - Fahad Nazmi</title>
+    <title>License Plate Recognition</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -45,9 +45,8 @@
               <ul>
                 <li><a href="index.html"><span><small>01</small>Home</span></a></li>
                 <li><a href="about.html"><span><small>02</small>Resume</span></a></li>
-                <li><a href="projects.html"><span><small>03</small>Projects</span></a></li>
-                <!-- <li><a href="blog.html"><span><small>05</small>Blog</span></a></li> -->
-                <li class="active"><a href="contact.html"><span><small>04</small>Contact</span></a></li>
+                <li><a href="projects.html"><span><small>04</small>Projects</span></a></li>
+                <li><a href="contact.html"><span><small>06</small>Contact</span></a></li>
               </ul>
             </div>
           </div>
@@ -69,42 +68,54 @@
         </div>
       </header>
 
-      <section class="ftco-section contact-section">
+      <img class="header-image" src="images/LicensePlate.png">
+
+      <section class="ftco-section">
         <div class="container mt-5">
-          <div class="row d-flex mb-5 contact-info">
-            <div class="col-md-12 mb-4">
-              <h2 class="h4">Contact Information</h2>
+        	<div class="row justify-content-center mb-5 pb-5">
+            <div class="col-md-7 text-center heading-section ftco-animate">
+              <h2>License Plate Recognition</h2>
+              <span>Python, OpenCV, PyTesseract</span>
+              <ul class="ftco-footer-social list-unstyled mt-4">
+                <li><a href="https://github.com/fahadnazmi/License-Plate-Recog" target="_blank"><span class="icon-code"></span></a></li>
+              </ul>
             </div>
-            <div class="w-100"></div>
-            <!-- <div class="col-md-3">
-              <p><span>Email:</span> <a href="mailto:fahadnazmi2001@gmail.com">fahadnazmi2001@gmail.com</a></p>
-            </div>
-            <div class="col-md-3">
-              <p><span>Website:</span> <a href="#">yoursite.com</a></p>
-            </div> -->
           </div>
-          <div class="row block-9">
-            <div class="col-md-6 pr-md-5">
-              <form action="#">
-                <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Your Name">
-                </div>
-                <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Your Email">
-                </div>
-                <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Subject">
-                </div>
-                <div class="form-group">
-                  <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
-                </div>
-                <div class="form-group">
-                  <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
-                </div>
-              </form>
-            
-            </div>
-            <div class="col-md-6" id="map"></div>
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-8">
+              <h2 class="mb-3">About The Project</h2>
+              <p>This license plate recognition project aims to improve and automate the way we manage and track vehicles by harnessing the power of Digital Image Processing. With the increasing number of vehicles on the roads, traditional manual methods of license plate identification and registration have become time-consuming and disrupt normal traffic flow. </p>
+              <p>This program is just a prototype of how image-to-text conversion can
+be done. The program relies on Canny Edge Detection Operator, to
+locate the license plate in the image, and then uses Pytesseract tool
+to convert the image to a text output, which can be stored in a
+database.</p>
+              <br>
+              <p>
+                <img src="images/lpr.png" alt="" class="img-fluid">
+              </p>
+              <h2 class="mb-3 mt-5">Applications</h2>
+              <p>
+                <ul>
+                  <li><b>Traffic Surveillance:</b>  LPR systems play a crucial role in traffic monitoring and control. They help in identifying vehicles violating traffic rules, such as speeding or running red lights, enabling law enforcement to issue automated tickets. LPR systems also assist in managing traffic congestion and optimizing traffic flow through intelligent traffic management systems.</li>
+                  <br>
+                  <li><b>Law Enforcement:</b>  LPR systems are extensively used by law enforcement agencies for vehicle identification, tracking, and investigation purposes. It helps in identifying stolen vehicles, locating wanted suspects, and detecting vehicles associated with criminal activities.</li>
+                  <br>
+                  <li><b>Parking Management:</b>  LPR systems can automate parking management processes by accurately identifying vehicles entering and exiting parking lots. It enables efficient monitoring of parking duration, enforcement of parking rules and regulations, and facilitates cashless payment systems.</li>
+                  <br>
+                  <li><b>Toll Collection:</b>  LPR systems are employed in toll booths to automate the toll collection process. By capturing license plate information, toll operators can automatically calculate and deduct toll fees, enhancing traffic flow and reducing the need for physical toll collection booths.</li>
+                  <br>
+                  <li><b>Border Control and Customs:</b>  Border Control and Customs: LPR systems are utilized at border crossings and customs checkpoints to identify and track vehicles entering or leaving the country. They help in monitoring and controlling the movement of vehicles, detecting smuggling attempts, and enhancing border security.</li>
+                  <br>
+                  <li><b>Parking Access Control:</b>  LPR systems can be integrated with access control systems to grant or deny entry to authorized vehicles based on their license plate information. This application is commonly used in gated communities, corporate parking lots, and secure facilities.</li>
+                  <br>
+                  <li><b>Fleet Management:</b>  LPR systems can be utilized for fleet management, allowing businesses to track and monitor their vehicles in real-time. It helps in optimizing route planning, monitoring driver behavior, and ensuring compliance with regulations.</li>
+                  <br>
+                </ul>
+              </p>
+              <p>
+                <img src="images/lpr1.jpg" alt="" class="img-fluid">
+              </p>
           </div>
         </div>
       </section>
@@ -153,7 +164,7 @@
     <script src="js/scrollax.min.js"></script>
     <script src="js/bootstrap-datepicker.js"></script>
     <script src="js/jquery.timepicker.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=true"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
     <script src="js/google-map.js"></script>
     <script src="js/main.js"></script>
     
