@@ -6195,6 +6195,7 @@ button.bg-dark:focus {
 
 .mb-5,
 .my-5 {
+  z-index: 1;
   margin-bottom: 3rem !important; }
 
 .ml-5,
@@ -7745,7 +7746,8 @@ header {
           bottom: 0;
           font-weight: 700 !important;
           font-size: 100px;
-          color: rgba(255, 255, 255, 0.08); }
+          color: rgba(255, 255, 255, 0.08); 
+          z-index: -1;}
         .owl-carousel.home-slider .slider-item .slider-text h1 {
           font-size: 55px;
           color: #fff;
